@@ -5,16 +5,17 @@
 }
 
 body {
+    font-family: Arial, sans-serif;
+    background-image: url('Images/BG 1.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; /* Scale the image to fit within the container */
+    background-repeat: no-repeat;
+    background-color: #000000;
+    color: #ffffff;
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #000000;
-    background-image: url('Images/BG 1.png');
-    background-size: 100%; /* Scale the image to fit within the container */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    padding-top: 11%;
 }
 
 .container {
@@ -22,8 +23,6 @@ body {
     color: #ffffff; /* color for description text */
     font-size: 1.2rem;
     margin-top: 10px;
-    max-width: 90%;
-    width: 600px;
     text-shadow: 
         0 0 5px #000000,    /* Glow effect */
         0 0 10px #000000,
@@ -36,9 +35,7 @@ body {
 .container h2 {
     font-size: 2.2rem; /* Adjust font size as needed */
     color: #ffffff; /* Base color of the text */
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold; /* Makes the text bolder */
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     letter-spacing: 1.2px;
     text-shadow: 
         0 0 5px #000000,    /* Glow effect */
@@ -51,10 +48,8 @@ body {
 
 form {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    gap: 15px;
+    gap: 15px; /* Cretes Space Between Menus*/
 }
 
 /* Keyframe animations */
@@ -120,7 +115,7 @@ form select:nth-of-type(4) {
 }
 
 form select {
-    width: 300px;
+    width: 400px;
     padding: 15px;
     padding-left: 10px;
     background-color: #3dc8eb;
