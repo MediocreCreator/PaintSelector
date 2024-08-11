@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
     background-color: #000000;
     background-image: url('Images/BG 1.png');
-    background-size: cover; /* Scale the image to fit within the container */
+    background-size: 90%; /* Scale the image to fit within the container */
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -120,7 +120,7 @@ form select:nth-of-type(4) {
 }
 
 form select {
-    width: 450px;
+    width: 350px;
     padding: 15px;
     padding-left: 10px;
     background-color: #3dc8eb;
