@@ -49,7 +49,7 @@ body {
 form {
     display: flex;
     flex-direction: column;
-    gap: 15px; /* Cretes Space Between Menus*/
+    gap: 35px; /* Cretes Space Between Menus*/
 }
 
 /* Keyframe animations */
@@ -115,9 +115,9 @@ form select:nth-of-type(4) {
 }
 
 form select {
-    width: 400px;
+    width: 370px;
     padding: 15px;
-    padding-left: 10px;
+    text-align: center;
     background-color: #3dc8eb;
     border-radius: 10px;
     border: none;
