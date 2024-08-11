@@ -145,7 +145,7 @@ const productsData = {
 
     'Thinners': {
         'PPG/Deltron': {
-            'DU807 Thinners Medium 5L': { image: "Images/Prepsol/807 Local.png", description: "9124315807"},
+            'DU807 Thinners Medium 5L': { image: "Images/Thinners/807 Local.png", description: "9124315807"},
             'D807 Thinners Medium 5L': { image: "Images/Thinners/807.png", description: "9124315809"},
             'D812 Thinners Slow 5L': { image: "Images/Thinners/812.png", description: "9124315812"},
             'D8714 Thinners UHS Accelerated 2.5L': { image: "Images/Thinners/8714.png", description: "9124408244"},
