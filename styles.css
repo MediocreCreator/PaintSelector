@@ -20,7 +20,7 @@ body {
 }
 
 /* Media Queries for Mobile Devices */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     body {
         background-attachment: scroll; /* Better performance on mobile */
         padding-top: 5%; /* Adjust padding if needed */
@@ -129,6 +129,7 @@ form select:nth-of-type(4) {
     animation: slideInFromBottom 1.1s ease-out forwards;
 }
 
+/* Basic styles for the select element */
 form select {
     width: 370px;
     padding: 15px;
@@ -137,9 +138,26 @@ form select {
     border: none;
     outline: none;
     font-size: 1.2rem;
-    box-shadow: 0 5px 10px 0 rgb(0, 0, 0, 0.25);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
+
+/* Styles to center the form and select element on mobile devices */
+@media only screen and (max-width: 768px) {
+    form {
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically, optional */
+        height: 100vh; /* Full viewport height to center vertically */
+        margin: 0; /* Remove default margin */
+    }
+
+    form select {
+        width: 80%; /* Adjust width as needed for mobile view */
+        max-width: 370px; /* Ensure it doesn’t exceed original width */
+    }
+}
+
 
 .details {
     margin-top: 20px;
