@@ -56,7 +56,7 @@ const productsData = {
             'D8238 Hardener HS Fast 1L': { image: "Images/Hardeners/8238.png", description: "9124408238", link: "" },
             'D8305 Hardener UHS 1L': { image: "Images/Hardeners/8305.png", description: "9124408305", link: "" },
             'D8305 Hardener UHS 2.5L': { image: "Images/Hardeners/8305.png", description: "9124408306", link: "" },
-            'D8270 Hardener HS 1L': { image: "", description: "9124408270", link: "" },
+            'D8270 Hardener HS 1L': { image: "Images/Hardeners/8270.png", description: "9124408270", link: "" },
             'D803 Hardener MS Fast 1L': { image: "Images/Hardeners/803.png", description: "9124305803", link: "" },
             'D803 Hardener MS Fast 3L': { image: "Images/Hardeners/803 3L.png", description: "9124315803", link: "" },
             'D8307 Hardener UHS 2.5L': { image: "Images/Hardeners/8307.png", description: "9124408307", link: "" },
