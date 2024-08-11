@@ -120,7 +120,7 @@ form select:nth-of-type(4) {
 }
 
 form select {
-    width: 350px;
+    width: 300px;
     padding: 15px;
     padding-left: 10px;
     background-color: #3dc8eb;
