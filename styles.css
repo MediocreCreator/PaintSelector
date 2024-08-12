@@ -23,8 +23,8 @@ body {
 /* Main container for center alignment */
 .container {
     text-align: center;
-    max-width: 380px;
-    width: 100%;
+    max-width: 400px;
+    width: 90%;
 }
 
 h2 {
