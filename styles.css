@@ -1,0 +1,78 @@
+/* Reset and general body styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('PPG\ Car.png'); /* Add your background image here */
+    background-size: cover; /* Ensure the image covers the entire body */
+    background-attachment: fixed;
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-color: #000000; /* Fallback background color */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main container for center alignment */
+.container {
+    text-align: center;
+    max-width: 400px;
+
+}
+
+h2 {
+    margin-bottom: 20px;
+    letter-spacing: 1.2px;
+    text-shadow: 
+        0 0 5px  #000000,  
+        0 0 10px #000000,
+        0 0 15px #000000,
+        0 0 20px #000000,
+        0 0 25px #000000,
+        0 0 30px #000000,
+        0 0 35px #000000;
+}
+
+/* Dropdown styling */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 
+        0 0 5px  #000000,  
+        0 0 10px #000000,
+        0 0 15px #000000,
+        0 0 20px #000000,
+        0 0 25px #000000,
+        0 0 30px #000000,
+        0 0 35px #000000;
+}
+
+select {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #18b6ff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    outline: none;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+
+/* Add this to your styles.css */
+#variationImage {
+    max-width: 100%; /* Ensures the image scales down with its container */
+    height: auto; /* Maintains aspect ratio */
+    max-height: 300px; /* Sets a maximum height */
+    object-fit: contain; /* Ensures the image fits within its box without distortion */
+}
