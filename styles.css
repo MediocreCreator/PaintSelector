@@ -22,10 +22,12 @@ body {
 
 /* Main container for center alignment */
 .container {
-    padding-bottom: 150px;
+    padding: 20px;
     text-align: center;
-    max-width: 350px;
-    
+    max-width: 450px;
+    width: 100%;
+    padding-bottom: 160px
+
 }
 
 h2 {
